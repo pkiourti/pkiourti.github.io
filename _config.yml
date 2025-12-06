@@ -6,8 +6,8 @@ title: Panagiota Kiourti # the website title (if blank, full name will be used i
 first_name: Penny
 middle_name:
 last_name: Kiourti
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+# contact_note: >
+#   You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   ML Scientist & engineer working on robust, interpretable, and 3D-aware AI systems.
 footer_text: >
@@ -46,7 +46,7 @@ repo_trophies:
 # Layout
 # -----------------------------------------------------------------------------
 
-navbar_fixed: false
+navbar_fixed: true
 footer_fixed: true
 search_enabled: true
 socials_in_search: true
@@ -389,7 +389,7 @@ enable_darkmode: true # enables switching between light/dark modes
 enable_navbar_social: false # enables displaying social links in the navbar on the about page
 enable_project_categories: true # enables categorization of projects into multiple categories
 enable_medium_zoom: true # enables image zoom feature (as on medium.com)
-enable_progressbar: true # enables a horizontal progress bar linked to the vertical scroll position
+enable_progressbar: false # enables a horizontal progress bar linked to the vertical scroll position
 enable_video_embedding: false # enables video embedding for bibtex entries. If false, the button opens the video link in a new window.
 
 # -----------------------------------------------------------------------------
