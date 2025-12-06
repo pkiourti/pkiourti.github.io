@@ -30,7 +30,7 @@ robust, interpretable, and safe to deploy.
 
 My PhD at Boston University focused on backdoor attacks and defenses in deep
 learning, with applications to vision and reinforcement learning (e.g., TrojDRL,
-MISA, and dormant neural Trojans). 
+MISA, and dormant neural Trojans).
 
 Most recently, I worked as a Senior Software Engineer at Carbon, where I built
 ML and 3D geometry pipelines for dental applications - automating 3D orientation
