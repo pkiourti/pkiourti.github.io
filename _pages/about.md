@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>BU, SRI International</a>
+subtitle: <a href='#'>NTUA, BU, SRI International</a>
 
 profile:
   align: right
