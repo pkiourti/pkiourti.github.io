@@ -7,7 +7,12 @@ nav: true
 nav_order: 6
 ---
 
-Teaching Assistant in Cybersecurity (EC521) BU, Spring 2020
-Provided Office Hours, prepared & graded quizes, exams. Occasionally taught lectures.
-Teaching Assistant in Operating Systems (EC440), Manuel Egele BU, Fall 2019
-Provided Office Hours, prepared & graded quizes, exams. Occasionally led lab sessions.
+### Boston University
+
+- **Teaching Assistant, Cybersecurity (EC521)** – Spring 2020  
+  Instructor: Manuel Egele  
+  Provided office hours; prepared and graded quizzes and exams; occasionally taught lectures.
+
+- **Teaching Assistant, Operating Systems (EC440)** – Fall 2019  
+  Instructor: Manuel Egele  
+  Provided office hours; prepared and graded quizzes and exams; occasionally led lab sessions.

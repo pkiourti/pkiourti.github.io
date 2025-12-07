@@ -29,8 +29,7 @@ I’m an ML/CV engineer and researcher interested in making modern AI systems
 robust, interpretable, and safe to deploy.
 
 My PhD at Boston University focused on backdoor attacks and defenses in deep
-learning, with applications to vision and reinforcement learning (e.g., TrojDRL,
-MISA, and dormant neural Trojans).
+learning, with applications to vision and reinforcement learning.
 
 Most recently, I worked as a Senior Software Engineer at Carbon, where I built
 ML and 3D geometry pipelines for dental applications - automating 3D orientation
