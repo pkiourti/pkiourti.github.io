@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a>Affiliations: NTUA, BU, SRI International</a>
+subtitle: <a>Affiliations NTUA, BU, SRI International</a>
 
 profile:
   align: right
@@ -38,7 +38,7 @@ and quality checks for 3D printing. I enjoy sitting at the boundary between
 research and engineering: reading papers in the morning and shipping code in
 the afternoon.
 
-The correct pronunciation of my name is Pah-nah-yo-tah, but you may call me Penny
+The correct pronunciation of my name is Pah-nah-yo-tah, but you may call me Penny.
 
 **Currently:** based in the Bay Area (Redwood City, CA), open to roles as
 Senior ML Engineer / Research Scientist / Applied Scientist with a focus on
