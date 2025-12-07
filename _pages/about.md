@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>NTUA, BU, SRI International</a>
+subtitle: <a>Affiliations: NTUA, BU, SRI International</a>
 
 profile:
   align: right
@@ -37,6 +37,12 @@ ML and 3D geometry pipelines for dental applications - automating 3D orientation
 and quality checks for 3D printing. I enjoy sitting at the boundary between
 research and engineering: reading papers in the morning and shipping code in
 the afternoon.
+<!-- 
+I earned my undergraduate degree from the&nbsp;<a href="https://www.ece.ntua.gr/en">ECE</a> 
+department of National Technical University of Athens (<a href="https://www.ntua.gr/en">NTUA</a>), Greece 
+where I completed my thesis under the supervision of Professor <a href="https://www.ece.ntua.gr/en/staff/60">Theodora Vargarigou</a>. -->
+
+The correct pronunciation of my name is Pah-nah-yo-tah, but you may call me Penny
 
 **Currently:** based in the Bay Area (Redwood City, CA), open to roles as
 Senior ML Engineer / Research Scientist / Applied Scientist with a focus on
