@@ -2,6 +2,8 @@
   <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
     <div class="card h-100 hoverable">
       {% if project.img %}
+        {% assign img_is_gif = false %}
+        {% if project.img contains '.gif' %}{% assign img_is_gif = true %}{% endif %}
         {%
           include figure.liquid
           loading="eager"
@@ -9,6 +11,7 @@
           sizes = "250px"
           alt="project thumbnail"
           class="card-img-top"
+          avoid_scaling=img_is_gif
         %}
       {% endif %}
       <div class="card-body">
