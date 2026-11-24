@@ -16,3 +16,7 @@ nav_order: 6
 - **Teaching Assistant, Operating Systems (EC440)** – Fall 2019  
   Instructor: Manuel Egele  
   Provided office hours; prepared and graded quizzes and exams; occasionally led lab sessions.
+
+### Mentoring
+
+- Mentored a student research project on trojan attacks in face recognition.

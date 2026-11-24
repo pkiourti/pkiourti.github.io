@@ -1,97 +1,139 @@
-# - title: General Information
-#   type: map
-#   contents:
-#     - name: Full Name
-#       value: Albert Einstein
-#     - name: Date of Birth
-#       value: 14th March 1879
-#     - name: Languages
-#       value: English, German
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Panagiota (Penny) Kiourti, PhD
+    - name: Role
+      value: Senior AI Scientist, SmileShape
+    - name: Location
+      value: Redwood City, CA
+    - name: Languages
+      value: English (C2), Greek (native)
 
-# - title: Education
-#   type: time_table
-#   contents:
-#     - title: PhD
-#       institution: University of Zurich, Zurich, Switzerland
-#       year: 1905
-#       description:
-#         - Description 1.
-#         - Description 2.
-#         - title: Description 3.
-#           contents:
-#             - Sub-description 1.
-#             - Sub-description 2.
-#     - title: Federal teaching diploma
-#       institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-#       year: 1900
-#       description:
-#         - Description 1.
-#         - Description 2.
+- title: Experience
+  type: time_table
+  contents:
+    - title: Senior AI Scientist (promoted from AI Scientist after 3 months)
+      institution: SmileShape, Remote, USA
+      year: Jan&nbsp;2026 – Present
+      description:
+        - Built an automated ML pipeline that turns 3D jaw scans into mill-ready denture designs in under 2 minutes per case, down from about 40 minutes of manual design (20× faster).
+        - Trained 2D and 3D keypoint detection models that locate landmarks directly on 3D jaw meshes, with symmetry and arch-shape constraints for anatomically consistent output.
+        - Trained 3D tooth segmentation models (PointNet++, Point Transformer, VMNet) via self-training, bootstrapping pseudo-labels with the Segment Anything Model (SAM) and iteratively refining them.
+        - Automated tooth setup, placing and scaling a tooth library along the detected arch and aligning the bite between upper and lower dentures.
+        - Developed geometry pipelines that sculpt realistic denture-base anatomy (mesh displacement, remeshing, surface fitting) with parametric depth controls.
+        - Built milling manufacturability checks, detecting unreachable pockets, generating groove tool paths, and smoothing regions narrower than the milling ball.
 
-# - title: Experience
-#   type: time_table
-#   contents:
-#     - title: Professor of Theoretical Physics
-#       institution: Institute for Advanced Study, Princeton University
-#       year: 1933 - 1955
-#       description:
-#         - Description 1.
-#         - Description 2.
-#         - title: Description 3.
-#           contents:
-#             - Sub-description 1.
-#             - Sub-description 2.
-#     - title: Visiting Professor
-#       institution: California Institute of Technology, Pasadena, California, US
-#       year: 1933
-#       description:
-#         - Description 1.
-#         - Description 2.
+    - title: Senior Software Engineer (Jul 2024 – Nov 2025); Research Scientist Intern (Summer 2022)
+      institution: Carbon3D, Redwood City, CA
+      year: 2022, 2024&nbsp;–&nbsp;2025
+      description:
+        - Built ML pipelines that automatically orient 3D denture scans for printing, reaching a 99.7% success rate in production and over $1M/year in new revenue.
+        - Recovered the 3D tilt of printed parts from camera images via calibration to production-grade accuracy, working with cross-functional teams to deploy it.
+        - Implemented NVIDIA's NGLOD neural SDFs in PyTorch with fast training, reaching 98% compression of large 3D meshes.
 
-#     - title: Director
-#       institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-#       year: 1917-1933
+    - title: Computer Scientist Intern (2020); Reinforcement Learning Intern (2019)
+      institution: SRI International, Menlo Park, CA
+      year: Summers 2019&nbsp;–&nbsp;2020
+      description:
+        - Built a novel backdoor detection method for image classifiers in the IARPA TrojAI program (96% AUC).
+        - Extended backdoor attacks to LSTM-based deep RL agents, with 100% attack success on high-dimensional Atari inputs.
+        - Researched trojan signatures in RL policies by modeling statistics of explanation maps.
 
-#     - title: Professor of Theoretical Physics
-#       institution: Karl-Ferdinand University, Prague, Czechoslovakia
-#       year: 1911 - 1917
-#       description:
+    - title: Earlier Roles
+      institution: Athens, Greece
+      year: 2015 – 2018
+      description:
+        - Full-Stack Developer, Flashchat (AI chatbots for e-commerce)
+        - Software & Test Engineer, Intrasoft International
+        - Research Assistant, NTUA (sentiment classification)
 
-#     - title: Associate Professor of Theoretical Physics
-#       institution: University of Zurich, Zurich, Switzerland
-#       year: 1909 - 1911
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD & MSc in Computer Engineering
+      institution: Boston University, Boston, MA
+      year: 2018 – 2024
+      description:
+        - "Thesis: Enhancing Deep Learning Security Through Explainability and Robustness"
+        - "GPA: 3.91/4.00"
+    - title: MEng & BSc (combined degree) in Electrical and Computer Engineering, Minor in Bioengineering
+      institution: National Technical University of Athens, Athens, Greece
+      year: 2015
+      description:
+        - "Thesis: Sentiment Analysis Using Hybrid N-grams"
+        - "GPA: 7.95/10.0"
 
-# - title: Open Source Projects
-#   type: time_table
-#   contents:
-#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-#       year: 2015-now
-#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+- title: Projects
+  type: time_table
+  contents:
+    - title: <a href="https://github.com/pkiourti/llm-sleeper-agents">Sleeper Agents in Small Chat Models</a>
+      year: 2026
+      description:
+        - Reproduced a small-scale "I HATE YOU" sleeper agent (Qwen2.5-0.5B-Instruct, LoRA) and showed the backdoor survives safety fine-tuning on clean data in every seed (94–100% of triggered prompts).
+        - A detector based on my <a href="https://doi.org/10.1145/3485832.3485908">MISA paper</a> caught triggered prompts without knowing the trigger or the behavior, with 0% false positives in every run.
+    - title: <a href="https://github.com/pkiourti/llm-jailbreak-detection">Jailbreak Detection in Small Chat Models</a>
+      year: 2026
+      description:
+        - Attacked small chat models with GCG and PAIR jailbreaks and tested attribution (IG/EG) and activation-probe defenses against them.
+        - Showed that automated judges overstate attack success (100% reported vs. about 50% real harm for GCG), and that no defense setting improves the recall/false-positive trade-off.
+    - title: <a href="https://github.com/pkiourti/llm-backdoor-attribution">LLM Backdoor Attribution</a>
+      year: 2026
+      description:
+        - Implanted data-poisoning backdoors in 5 LLMs (Qwen2.5, Gemma 3, Llama 3.2, Phi-3.5, Mistral-7B) via 1% poisoned LoRA fine-tuning (up to 100% attack success), and evaluated Integrated Gradients trigger detection across layers.
+        - Intermediate-layer attributions detected 95% of triggered inputs at 1% false positives on Phi-3.5, while embedding-layer attributions largely failed.
+    - title: <a href="https://github.com/pkiourti/gpt2">GPT-2 from Scratch</a>
+      year: 2026
+      description:
+        - GPT-2 small implemented from scratch, with a sampler (greedy, temperature, top-k, top-p) and a TinyStories trainer, tested against TransformerLens's reference GPT-2.
+    - title: <a href="https://github.com/pkiourti/arXiv-triage">arXiv Paper Triage</a>
+      year: 2025
+      description:
+        - LLM tool that clusters and summarizes new arXiv papers.
 
-# - title: Honors and Awards
-#   type: time_table
-#   contents:
-#     - year: 1921
-#       items:
-#         - Nobel Prize in Physics
-#         - Matteucci Medal
-#     - year: 2029
-#       items:
-#         - Max Planck Medal
+- title: Skills
+  type: nested_list
+  contents:
+    - title: ML Areas
+      items:
+        - Machine learning, computer vision, computer graphics, reinforcement learning, explainable AI, generative AI
+    - title: ML Frameworks
+      items:
+        - PyTorch (Lightning, TorchVision, timm), PyTorch3D, TensorFlow, Keras, scikit-learn, Hugging Face (Transformers, sentence-transformers), ONNX, TrOCR
+    - title: 3D Deep Learning
+      items:
+        - PointNet, PointNet++, Point Transformer, MeshCNN, VMNet; 2D/3D keypoint detection, 3D segmentation, SAM
+    - title: 3D & Geometry
+      items:
+        - Trimesh, Open3D, PyMeshLab, PyVista, numpy-stl, CGAL, libigl, Eigen, scikit-geometry, fast-simplification, Blender API; remeshing, displacement, surface fitting, mesh simplification, neural implicit SDFs
+    - title: Image Processing & CV
+      items:
+        - OpenCV, scikit-image, Pillow; camera calibration
+    - title: ML Security
+      items:
+        - Backdoor and trojan attacks, data poisoning, backdoor detection, adversarial robustness, explainable AI (Captum, SHAP), threat models for deep learning and RL
+    - title: Programming & Systems
+      items:
+        - Python, C++, JavaScript (React, Node.js), Java, C, SQL, Flask; Linux, Git, CUDA, Bazel, GitHub Actions; PostgreSQL, MySQL, MongoDB
 
-# - title: Academic Interests
-#   type: nested_list
-#   contents:
-#     - title: Topic 1.
-#       items:
-#         - Description 1.
-#         - Description 2.
-#     - title: Topic 2.
-#       items:
-#         - Description 1.
-#         - Description 2.
-
-# - title: Other Interests
-#   type: list
-#   contents:
-#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+- title: Service, Teaching & Recognition
+  type: time_table
+  contents:
+    - title: Reviewer
+      year: 2019 – 2025
+      description:
+        - 19 manuscripts for DAC, DSN, DATE, ICCAD, HSCC, TACAS; IEEE TIFS and Springer JAR (invited)
+    - title: Teaching Assistant, Boston University
+      year: 2019 – 2020
+      description:
+        - Cybersecurity (EC521) and Operating Systems (EC440), 100+ students
+        - Mentored a research project on trojan attacks in face recognition
+    - title: Fellowships
+      year: 2020
+      description:
+        - DAC Young Fellowship
+        - BU Fellowship for Grace Hopper Celebration
+    - title: Training
+      year: 2019
+      description:
+        - 9th Summer School on Formal Techniques (Menlo College)

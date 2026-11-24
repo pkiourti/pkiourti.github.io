@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a>Affiliations NTUA, BU, SRI International</a>
+subtitle: Senior AI Scientist at SmileShape · PhD, Boston University
 
 profile:
   align: right
@@ -25,20 +25,33 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I’m an ML/CV engineer and researcher interested in making modern AI systems
-robust, interpretable, and safe to deploy.
+I'm an AI scientist working on production 3D machine learning and on making deep
+learning systems robust, interpretable, and safe to deploy.
 
-My PhD at Boston University focused on backdoor attacks and defenses in deep
-learning, with applications to vision and reinforcement learning.
+**Currently**, I'm a Senior AI Scientist at SmileShape, where I build an automated
+pipeline that turns 3D jaw scans into mill-ready denture designs in under 2 minutes
+per case (down from about 40 minutes of manual design). The work spans 3D keypoint
+detection and tooth segmentation on meshes (PointNet++, Point Transformer, VMNet, SAM-based self-training),
+automated tooth setup, geometry processing, and milling manufacturability checks.
 
-Most recently, I worked as a Senior Software Engineer at Carbon, where I built
-ML and 3D geometry pipelines for dental applications - automating 3D orientation
-and quality checks for 3D printing. I enjoy sitting at the boundary between
-research and engineering: reading papers in the morning and shipping code in
-the afternoon.
+**Previously**, at Carbon3D, I built ML pipelines that automatically orient 3D denture
+scans for printing, reaching a 99.7% success rate in production and over $1M/year in
+new revenue. I also recovered the 3D tilt of printed parts from camera images and
+implemented neural SDFs (NGLOD) for 98% compression of large 3D meshes.
+
+**Research.** My PhD at Boston University focused on deep learning security through
+explainability and robustness. I authored [TrojDRL](https://doi.org/10.1109/DAC18072.2020.9218663)
+([code](https://github.com/pkiourti/rl_backdoor)), the first backdoor attack on deep
+reinforcement learning (DAC 2020), and
+[MISA](https://dl.acm.org/doi/10.1145/3485832.3485908), an online attribution-based defense
+against trojaned models (ACSAC 2021). In
+[Rethinking Robustness](https://arxiv.org/abs/2512.06665) (arXiv 2025), I proposed a new
+definition and evaluation of robustness for feature attribution methods. At SRI International I built
+backdoor detection for image classifiers in the IARPA TrojAI program. My work has been covered
+by WIRED and Schneier on Security. Lately I've been studying backdoors in LLMs and how well
+attribution methods detect their triggers.
+
+I enjoy sitting at the boundary between research and engineering: reading papers in the
+morning and shipping code in the afternoon.
 
 The correct pronunciation of my name is Pah-nah-yo-tah, but you may call me Penny.
-
-**Currently:** based in the Bay Area (Redwood City, CA), open to roles as
-Senior ML Engineer / Research Scientist / Applied Scientist with a focus on
-AI security, robust ML, and 3D/Vision models.

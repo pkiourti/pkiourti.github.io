@@ -534,6 +534,10 @@ footer.sticky-bottom {
       .badge {
         color: var(--global-card-bg-color) !important;
         background-color: var(--global-theme-color) !important;
+        // let long date ranges wrap inside the 75px date column instead of overlapping the title
+        white-space: normal;
+        max-width: 75px;
+        line-height: 1.3;
       }
     }
   }

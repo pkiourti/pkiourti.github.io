@@ -12,3 +12,6 @@ node_modules/
 vendor
 .idea
 .venv
+
+# resume generator and private PDFs (contain phone number); kept local only
+_resume/
