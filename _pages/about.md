@@ -6,7 +6,7 @@ subtitle: Senior AI Scientist at SmileShape · PhD, Boston University
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic_headshot.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Redwood City, CA</p>
