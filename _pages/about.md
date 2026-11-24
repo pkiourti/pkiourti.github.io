@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Senior AI Scientist at SmileShape · PhD, Boston University
 
