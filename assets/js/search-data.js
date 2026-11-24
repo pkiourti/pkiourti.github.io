@@ -405,51 +405,41 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+            },},{id: "projects-sleeper-agents-in-small-chat-models",
+          title: 'Sleeper Agents in Small Chat Models',
+          description: "Do backdoors survive safety fine-tuning, and can a trigger-agnostic detector catch them? (2026)",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+              window.location.href = "/projects/1_llm_sleeper_agents/";
+            },},{id: "projects-jailbreak-detection-in-small-chat-models",
+          title: 'Jailbreak Detection in Small Chat Models',
+          description: "Can attribution defenses built for backdoors catch GCG and PAIR jailbreaks? (2026)",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+              window.location.href = "/projects/2_llm_jailbreak_detection/";
+            },},{id: "projects-llm-backdoor-attribution",
+          title: 'LLM Backdoor Attribution',
+          description: "Detecting data-poisoning triggers in LLMs with layer-wise attributions (2026)",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+              window.location.href = "/projects/3_llm_backdoor_attribution/";
+            },},{id: "projects-backdoors-in-deep-rl",
+          title: 'Backdoors in Deep RL',
+          description: "TrojDRL, the first backdoor attack on deep reinforcement learning (DAC 2020)",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+              window.location.href = "/projects/4_trojdrl/";
+            },},{id: "projects-trojan-detection-amp-defense",
+          title: 'Trojan Detection &amp;amp; Defense',
+          description: "Backdoor detection for IARPA TrojAI (SRI) and MISA online defense (ACSAC 2021)",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
+              window.location.href = "/projects/5_trojai/";
+            },},{id: "projects-gpt-2-from-scratch",
+          title: 'GPT-2 from Scratch',
+          description: "GPT-2 small implemented from scratch, with a sampler and a TinyStories trainer (2026)",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
+              window.location.href = "/projects/6_gpt2/";
+            },},{id: "projects-arxiv-paper-triage",
+          title: 'arXiv Paper Triage',
+          description: "LLM tool that clusters and summarizes new arXiv papers (2025)",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
+              window.location.href = "/projects/7_arxiv_triage/";
             },},{
         id: 'social-email',
         title: 'email',
