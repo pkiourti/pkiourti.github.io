@@ -28,7 +28,7 @@
       institution: Carbon3D, Redwood City, CA
       year: 2022, 2024&nbsp;–&nbsp;2025
       description:
-        - Built ML pipelines that automatically orient 3D denture scans for printing, reaching a 99.7% success rate in production and over $1M/year in new revenue.
+        - Built ML pipelines that automatically orient 3D denture scans for printing, reaching a 99.7% success rate in production and opening the way to a new revenue stream of over $1M/year.
         - Recovered the 3D tilt of printed parts from camera images via calibration to production-grade accuracy, working with cross-functional teams to deploy it.
         - Implemented NVIDIA's NGLOD neural SDFs in PyTorch with fast training, reaching 98% compression of large 3D meshes.
 
@@ -55,7 +55,7 @@
       institution: Boston University, Boston, MA
       year: 2018 – 2024
       description:
-        - "Thesis: Enhancing Deep Learning Security Through Explainability and Robustness"
+        - 'Thesis: <a href="https://hdl.handle.net/2144/49247">Enhancing Deep Learning Security Through Explainability and Robustness</a>'
         - "GPA: 3.91/4.00"
     - title: MEng & BSc (combined degree) in Electrical and Computer Engineering, Minor in Bioengineering
       institution: National Technical University of Athens, Athens, Greece
